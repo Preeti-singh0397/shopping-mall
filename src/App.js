@@ -29,7 +29,6 @@ class App extends Component {
               ...snapShort.data()
             }
           })
-          console.log(this.state)
         })
       }
       this.setState({currentUser:userAuth})
